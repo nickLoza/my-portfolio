@@ -8,7 +8,7 @@ function Header(){
 	return(
 		<div className="header">
 			<div className="header__navbar navbar">
-				<a href="/" className="navbar__logo">
+				<a href="/my-portfolio/" className="navbar__logo">
 					Nick Loza
 				</a>
 				<ul className="navbar__menu menu">

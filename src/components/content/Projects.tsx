@@ -9,7 +9,7 @@ function Projects(){
 
 	return(
 		<div className="projects" id="projects">
-			<h2 className="projects__title">My projects</h2>
+			<h1 className="projects__title">My projects</h1>
 			<div className="projects__list">
 				{projectsDB.map((proj)=>(
 					<div key={proj.id} className="projects__item item">
