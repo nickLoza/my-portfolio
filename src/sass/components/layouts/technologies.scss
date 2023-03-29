@@ -1,0 +1,28 @@
+@use "../vars/vars" as *;
+
+
+
+.technologies{
+	text-align: center;
+	padding: 0 2rem;
+
+	&__title{
+		font-size: 2.2rem;
+	}
+	&__icons{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		column-gap: 1rem;
+		margin-top: 1rem;
+	}
+	&__icon{
+		max-width: 2rem;
+		font-size: 3rem;
+		transition: color $speed;
+		cursor: pointer;
+		&:hover{
+			color: $secondary-color;
+		}
+	}
+}

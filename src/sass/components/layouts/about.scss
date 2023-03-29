@@ -1,0 +1,36 @@
+@use "../vars/vars" as *;
+
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1rem .4rem;
+	padding-top: calc($header-height + 2rem);
+	@media screen and (min-width: 980px) {
+		flex-direction: row;
+		column-gap: 2rem;
+	}
+	&__img{
+		height: 200px;
+		width: 200px;
+	}
+	&__text{
+		&-title{
+			color: $secondary-color;
+			font:{
+				size: 4rem;
+				weight: 700;
+			}
+		}
+		&-description{
+			font-size: 1.2rem;
+			letter-spacing: .3px;
+			max-width: 500px;
+		}
+		&-b{
+			color: $secondary-color;
+		}
+	}
+}

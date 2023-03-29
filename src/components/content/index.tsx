@@ -1,6 +1,7 @@
 import AboutMe from "./AboutMe";
+import Contact from "./Contact";
 import Projects from "./Projects";
-import Tecnologies from "./Tecnologies";
+import Technologies from "./Technologies";
 
 
 
@@ -9,9 +10,10 @@ function Content(){
 	return(
 		<div className="content">
 			<div  className="content__img-bcg"/>
-			<Projects/>
-			<Tecnologies/>
 			<AboutMe/>
+			<Projects/>
+			<Technologies/>
+			<Contact/>
 		</div>
 	)
 }
