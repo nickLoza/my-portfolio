@@ -21,26 +21,26 @@ function Header(){
 
 
 	return(
-		<header className="header">
+		<header className="header" role="banner">
 			<div className="header__navbar navbar">
 				<button className="menu__btn" onClick={()=>setToggle(true)}>
 					<AiOutlineMenu/>
 				</button>
-				<ul className={toggle?"navbar__menu menu menu--open": "navbar__menu menu"} onClick={handleOnClick}>
+				<ul className={toggle?"navbar__menu menu menu--open": "navbar__menu menu"} onClick={handleOnClick} role="navigation">
 					<button className="menu__btn close">
 						<AiOutlineClose/>
 					</button>
 					<li className="menu__li">
-						<a href="#about" className="menu__link">About me</a>
+						<a href="#about" className="menu__link" tabIndex={0} aria-label="click to read about me">About me</a>
 					</li>
 					<li className="menu__li">
-						<a href="#projects" className="menu__link">Projects</a>
+						<a href="#projects" className="menu__link" tabIndex={0} aria-label="click to read my projects">Projects</a>
 					</li>
 					<li className="menu__li">
-						<a href="#technologies" className="menu__link">Technologies</a>
+						<a href="#technologies" className="menu__link" tabIndex={0} aria-label="click to read the technologies I know">Technologies</a>
 					</li>
 					<li className="menu__li">
-						<a href="#contact" className="menu__link">Contact</a>
+						<a href="#contact" className="menu__link" tabIndex={0} aria-label="click to read my contact information">Contact</a>
 					</li>
 				</ul>
 			</div>

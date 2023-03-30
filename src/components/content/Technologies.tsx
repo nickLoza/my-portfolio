@@ -6,21 +6,21 @@ function Technologies() {
 
 
 	return (
-		<section className="technologies" id="technologies">
-			<h4 className="technologies__title">
+		<section className="technologies" id="technologies" >
+			<h4 className="technologies__title" tabIndex={0}>
 			Technologies I've been using:
 			</h4>
 			<ul className="technologies__icons">
-				<DiHtml5 className="technologies__icon" title="HTML"/>
-				<DiCss3 className="technologies__icon" title="CSS"/>
-				<DiSass className="technologies__icon" title="SASS"/>
-				<DiJsBadge className="technologies__icon" title="JS"/>
-				<DiReact className="technologies__icon" title="REACT"/>
-				<SiTypescript className="technologies__icon" title="	TYPESCRIPT"/>
-				<SiTestinglibrary className="technologies__icon" title="	Testing library"/>
-				<DiNpm className="technologies__icon" title="NPM"/>
-				<DiGit className="technologies__icon" title="GIT"/>
-				<DiNodejsSmall className="technologies__icon" title="Node"/>
+				<DiHtml5 className="technologies__icon" title="HTML"  tabIndex={0}/>
+				<DiCss3 className="technologies__icon" title="CSS"  tabIndex={0}/>
+				<DiSass className="technologies__icon" title="SASS"  tabIndex={0}/>
+				<DiJsBadge className="technologies__icon" title="JS"  tabIndex={0}/>
+				<DiReact className="technologies__icon" title="REACT"  tabIndex={0}/>
+				<SiTypescript className="technologies__icon" title="	TYPESCRIPT"  tabIndex={0}/>
+				<SiTestinglibrary className="technologies__icon" title="	Testing library"  tabIndex={0}/>
+				<DiNpm className="technologies__icon" title="NPM"  tabIndex={0}/>
+				<DiGit className="technologies__icon" title="GIT"  tabIndex={0}/>
+				<DiNodejsSmall className="technologies__icon" title="Node"  tabIndex={0}/>
 			</ul>
 		</section>
 		)

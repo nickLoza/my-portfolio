@@ -15,13 +15,11 @@
 		padding: 1rem;
 		.item{
 			position: relative;
-			&:hover{
+			&:hover,&:focus{
 				.item__links{
 					transform: translateX(0);
 					opacity: 1;
 				}
-			}
-			&__img{
 			}
 			&__title{
 				font-size: 1.4rem;
