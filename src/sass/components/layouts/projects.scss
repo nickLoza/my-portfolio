@@ -4,28 +4,42 @@
 	text-align: center;
 	max-width: 1600px;
 	margin: auto;
-	margin-top: 3rem;
+	margin-top: 5rem;
+	padding: 1rem 2rem;
 	&__title{
-		font-size: 2.7rem;
+		font:{
+			size: 2.7rem;
+			weight: 700;
+			family: monospace;
+		}
+		margin-bottom: 2rem;
 	}
 	&__list{
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 		gap: 1rem;
-		padding: 1rem;
 		.item{
 			position: relative;
+			height: 95%;
+			background-color: #999;
 			&:hover,&:focus{
 				.item__links{
 					transform: translateX(0);
 					opacity: 1;
 				}
 			}
+			&__img{
+				min-height: 200px;
+				min-width: 350px;
+				object-fit: contain;
+			}
 			&__title{
-				font-size: 1.4rem;
+				font:{
+					size: 1.5rem;
+					family: monospace;
+				}
 				color: #fff;
 				background: #000;
-				border-bottom: 2px solid $secondary-color;
 
 			}
 			&__links{

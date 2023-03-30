@@ -9,8 +9,8 @@ import { AiOutlineGithub } from "react-icons/ai";
 function Projects(){
 
 	return(
-		<section className="projects" id="projects">
-			<h1 className="projects__title" tabIndex={0}>My projects</h1>
+		<section className="projects" id="projects" role="main">
+			<h3 className="projects__title" tabIndex={0}>MY PROJECTS</h3>
 			<div className="projects__list">
 				{projectsDB.map((proj)=>(
 					<div key={proj.id} className="projects__item item" tabIndex={0}>

@@ -9,7 +9,6 @@ function Content(){
 
 	return(
 		<div className="content">
-			<div  className="content__img-bcg"/>
 			<AboutMe/>
 			<Projects/>
 			<Technologies/>
