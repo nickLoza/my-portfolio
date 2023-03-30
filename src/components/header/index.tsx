@@ -10,10 +10,8 @@ function Header(){
 
 
 	function handleOnClick(e: React.MouseEvent<HTMLUListElement>){
-		let target = e.target as HTMLElement;
-		if(target.tagName === "svg"){
-			setToggle(false);
-		}else if(target.tagName === "A"){
+		let target = e.target as HTMLElement; 
+		if(target.tagName === "A"){
 			setToggle(false);
 		}
 
@@ -27,7 +25,7 @@ function Header(){
 					<AiOutlineMenu/>
 				</button>
 				<ul className={toggle?"navbar__menu menu menu--open": "navbar__menu menu"} onClick={handleOnClick} role="navigation">
-					<button className="menu__btn close">
+					<button className="menu__btn close" onClick={()=>setToggle(false)}>
 						<AiOutlineClose/>
 					</button>
 					<li className="menu__li">
