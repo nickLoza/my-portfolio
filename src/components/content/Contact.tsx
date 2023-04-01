@@ -2,7 +2,7 @@ import { BsLinkedin } from "react-icons/bs"
 
 function Contact() {
 	return (
-		<section className="contact" id="contact" >
+		<footer className="contact" id="contact" role="contentinfo">
 				<h5 className="contact__title" tabIndex={0}>Contact me</h5>
 				<div className="contact__ul">
 					<div className="contact__ul-icons">
@@ -14,7 +14,7 @@ function Contact() {
 							nicklozadeveloper@gmail.com
 						</p>
 				</div>
-			</section>
+			</footer>
 	)
 }
 

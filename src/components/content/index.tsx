@@ -8,12 +8,12 @@ import Technologies from "./Technologies";
 function Content(){
 
 	return(
-		<div className="content">
+		<>
 			<AboutMe/>
 			<Projects/>
 			<Technologies/>
 			<Contact/>
-		</div>
+		</>
 	)
 }
 
