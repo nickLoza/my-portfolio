@@ -10,7 +10,7 @@ function Projects(){
 
 	return(
 		<section className="projects" id="projects" role="main">
-			<h3 className="projects__title" tabIndex={0}>MY PROJECTS</h3>
+			<h2 className="projects__title" tabIndex={0}>MY PROJECTS</h2>
 			<div className="projects__list">
 				{projectsDB.map((proj)=>(
 					<div key={proj.id} className="projects__item item" tabIndex={0}>
