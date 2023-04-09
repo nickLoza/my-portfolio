@@ -10,9 +10,9 @@ function Technologies() {
 
 	return (
 		<section className="technologies" id="technologies" >
-			<h4 className="technologies__title" tabIndex={0}>
+			<h3 className="technologies__title" tabIndex={0}>
 			Technologies I've been using:
-			</h4>
+			</h3>
 			<div className="technologies__icons">
 				<DiHtml5 className="technologies__icon" title="HTML"  tabIndex={0}/>
 				<DiCss3 className="technologies__icon" title="CSS"  tabIndex={0}/>
