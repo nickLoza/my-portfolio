@@ -16,7 +16,7 @@
 	}
 	&__list{
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
 		gap: 1rem;
 		padding: 2rem;
 		border-radius: 17px;
@@ -45,7 +45,7 @@
 				color: $text-color-inverse;
 				letter-spacing: .3px;
 				font:{
-					size: 1.2rem;
+					size: 1.4rem;
 					weight: 500;
 					family: monospace;
 				}
