@@ -2,7 +2,7 @@
 
 
 import { DiCss3, DiHtml5,DiJsBadge,DiReact,DiSass, DiNpm,DiGit,DiNodejsSmall } from "react-icons/di";
-import { SiTypescript, SiTestinglibrary } from "react-icons/si";
+import { SiTypescript, SiTestinglibrary, SiWebpack, SiBabel } from "react-icons/si";
 
 
 function Technologies() {
@@ -20,9 +20,11 @@ function Technologies() {
 				<DiJsBadge className="technologies__icon" title="JS"  tabIndex={0}/>
 				<DiReact className="technologies__icon" title="REACT"  tabIndex={0}/>
 				<SiTypescript className="technologies__icon" title="	TYPESCRIPT"  tabIndex={0}/>
-				<SiTestinglibrary className="technologies__icon" title="	Testing library"  tabIndex={0}/>
+				<SiTestinglibrary className="technologies__icon" title="Testing library"  tabIndex={0}/>
 				<DiNpm className="technologies__icon" title="NPM"  tabIndex={0}/>
 				<DiGit className="technologies__icon" title="GIT"  tabIndex={0}/>
+				<SiWebpack className="technologies__icon" title="WEBPACK"  tabIndex={0}/>
+				<SiBabel className="technologies__icon" title="BABEL"  tabIndex={0}/>
 				<DiNodejsSmall className="technologies__icon" title="Node"  tabIndex={0}/>
 			</div>
 		</section>
