@@ -36,6 +36,7 @@ function Projects(){
 						</a>
 						</div>
 						<p className="item__title">{proj.title}</p>
+						<p className="item__description">{proj.description}</p>
 					</div>
 				))}
 			</div>
