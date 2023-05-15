@@ -36,7 +36,7 @@ const projectsDB = [
 		title: "Community Guess Game",
 		websiteLink: "https://community-who-said.netlify.app/", 
 		repositoryLink: "https://github.com/nickLoza/community-web-game",
-		description: "React-TS single-page about TV Show 'Community'. Guess the authors of the quotes"},
+		description: "Guess the authors of the quotes. React-TS, SASS and my own JSON"},
 	{
 		id: 6, 
 		imgUrl: "https://i.postimg.cc/66Hy4RfZ/img-optimizer-prev-port.webp", 
