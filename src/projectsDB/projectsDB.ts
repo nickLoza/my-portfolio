@@ -4,11 +4,11 @@
 const projectsDB = [
 	{
 		id: 1, 
-		imgUrl: "https://i.postimg.cc/NMhqQDq0/clothes-shop-preview.webp", 
-		title: "E-commerce clothing",
-		websiteLink: "https://clothes-shop-react-web.netlify.app/home", 
-		repositoryLink: "https://github.com/nickLoza/e-commerce-clothes",
-		description: "React-TS e-commerce with Redux Toolkit and Swiper.js"},
+		imgUrl: "https://i.postimg.cc/0Q5tKZNn/preview1200.jpg", 
+		title: "Spotify Clone",
+		websiteLink: "https://spotify-clone-react-nickloza.netlify.app/", 
+		repositoryLink: "https://github.com/nickLoza/spotify-clone-react",
+		description: "React-TS and tailwind"},
 	{
 		id: 2, 
 		imgUrl: "https://i.postimg.cc/kXM6X9PM/twitch-clone-preview.webp", 
@@ -25,11 +25,11 @@ const projectsDB = [
 		description: "Video chat app with Next.js, and a server with express and socket.io"},
 	{
 		id: 4, 
-		imgUrl: "https://i.postimg.cc/zX6SP5GH/band-preview-portfolio.webp", 
-		title: "A Band Website",
-		websiteLink: "https://band-website-react.netlify.app/home", 
-		repositoryLink: "https://github.com/nickLoza/band-website",
-		description: "React-TS and SASS"},
+		imgUrl: "https://i.postimg.cc/W1Gyj736/paypal-preview.jpg", 
+		title: "PayPal Clone",
+		websiteLink: "https://clone-react-tailwind.netlify.app/", 
+		repositoryLink: "https://github.com/nickLoza/paypal-clone-react-tailwind",
+		description: "React, Typescript, and Tailwind"},
 	{
 		id: 5, 
 		imgUrl: "https://i.postimg.cc/2yXt1pcj/motorcycles-preview.webp", 
@@ -37,20 +37,27 @@ const projectsDB = [
 		websiteLink: "https://electric-motorcycles-react.netlify.app/", 
 		repositoryLink: "https://github.com/nickLoza/motorcycle-company",
 		description: "React-TS, SASS, context provider"},
-		{
+	{
 		id: 6, 
-		imgUrl: "https://i.postimg.cc/4dmSTs4V/chat-app-prev.webp", 
-		title: "Chat App",
-		websiteLink: "https://chat-app-world.netlify.app/", 
-		repositoryLink: "https://github.com/nickLoza/chat-app-world",
-		description: "React-TS, SASS, Webpack, Babel and firebase"},
+		imgUrl: "https://i.postimg.cc/zX6SP5GH/band-preview-portfolio.webp", 
+		title: "A Band Website",
+		websiteLink: "https://band-website-react.netlify.app/home", 
+		repositoryLink: "https://github.com/nickLoza/band-website",
+		description: "React-TS and SASS"},
 	{
 		id: 7, 
 		imgUrl: "https://i.postimg.cc/66Hy4RfZ/img-optimizer-prev-port.webp", 
 		title: "Img resizer/to WEBP",
 		websiteLink: "https://img-resize-to-webp.netlify.app/", 
 		repositoryLink: "https://github.com/nickLoza/image-resizer-webp-converter",
-		description: "React-TS, drag & drop, useReducer, react-image-file-resizer"}
+		description: "React-TS, drag & drop, useReducer, react-image-file-resizer"},
+	{
+		id: 8, 
+		imgUrl: "https://i.postimg.cc/NMhqQDq0/clothes-shop-preview.webp", 
+		title: "E-commerce clothing",
+		websiteLink: "https://clothes-shop-react-web.netlify.app/home", 
+		repositoryLink: "https://github.com/nickLoza/e-commerce-clothes",
+		description: "React-TS e-commerce with Redux Toolkit and Swiper.js"},
 ];
 
 
