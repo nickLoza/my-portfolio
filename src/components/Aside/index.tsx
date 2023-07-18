@@ -7,7 +7,7 @@ import it from "../../assets/it.svg"
 
 function Aside() {
 	return (
-		<aside className='w-[70px] fixed left-0 top-0 lg:w-[250px] h-full bg-[#1D2939] text-white text-center p-[1rem] border-r-[1px]'>
+		<aside className='w-[70px] fixed left-0 top-0 lg:w-[250px] h-full bg-[#000] text-white text-center p-[1rem] border-r-[1px]'>
 			{/*top*/}
 			<div>
 				<div className='sm:hidden lg:block'>	
