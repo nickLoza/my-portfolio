@@ -64,13 +64,13 @@ function Main() {
 			<h4 className='text-4xl mb-3 uppercase'>Projects</h4>
 			<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2  2xl:grid-cols-3 gap-x-4 gap-y-8 sm:gap-y-14">
       {projectsDB.map((project) => (
-        <div key={project.id} className="flex flex-col justify-between sm:h-[375px] lg:h-[400px] max-w-[550px] border-[1px] p-2 pb-4">
+        <div key={project.id} className="flex flex-col justify-between h-[375px] lg:h-[400px] max-w-[550px] border-[1px] p-2 pb-4">
           <img src={project.imgUrl} alt={project.title} className=" w-full md:h-[190px] lg:h-[240px]  mb-1" />
           <h2 className="text-lg font-semibold">{project.title}</h2>
           <p className="text-gray-600  text-white">{project.description}</p>
           <div className="flex justify-center gap-x-2 text-sm md:text-base">
-            <a href={project.websiteLink} target="_blank" rel="noopener noreferrer" className="text-white font-bold py-1 px-3 transition-color ease-in-out duration-300 bg-black hover:bg-white hover:text-black">Website</a>
-            <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer" className="text-white font-bold py-1 px-3 transition-color ease-in-out duration-300 bg-black hover:bg-white hover:text-black">Repository</a>
+            <a href={project.websiteLink} target="_blank" rel="noopener noreferrer" className="text-white font-bold py-1 px-3 transition-color ease-in-out duration-300 bg-black hover:bg-white hover:text-black border-[1px]">Website</a>
+            <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer" className="text-white font-bold py-1 px-3 transition-color ease-in-out duration-300 bg-black hover:bg-white hover:text-black border-[1px]">Repository</a>
           </div>
         </div>
       ))}

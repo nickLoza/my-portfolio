@@ -15,7 +15,7 @@ const projectsDB = [
 		title: "Twitch Clone",
 		websiteLink: "https://twitch-clone-2023.vercel.app/", 
 		repositoryLink: "https://github.com/nickLoza/twitch-clone-2023",
-		description: "Twitch clone made with Next.js 13 and Tailwind"},
+		description: "Next.js 13 and Tailwind"},
 		{
 		id: 3, 
 		imgUrl: "https://i.postimg.cc/fW1pTpvX/twitter-prev.png", 
@@ -71,7 +71,7 @@ const projectsDB = [
 		title: "Video Chat",
 		websiteLink: "https://video-chat-nextjs-socket-nick.vercel.app/", 
 		repositoryLink: "https://github.com/nickLoza/video-chat-nextjs-socket",
-		description: "Video chat app with Next.js, and a server with express and socket.io"},
+		description: "Next.js, and a server with express and socket.io"},
 ];
 
 

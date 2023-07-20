@@ -10,7 +10,7 @@ function Aside() {
 		<aside className='w-[70px] fixed left-0 top-0 lg:w-[250px] h-full bg-[#000] text-white text-center p-[1rem] border-r-[1px]'>
 			{/*top*/}
 			<div>
-				<div className='sm:hidden lg:block'>	
+				<div className='hidden lg:block'>	
 					<p className='text-3xl font-bold mb-2'>Nick Loza</p>
 					<img className='h-[150px] rounded-[18px] m-auto' src={Profile} alt="Nick Loza" height={100}/>
 					<p className='text-2xl text-[#ccc] mb-3'>Frontend Developer</p>
