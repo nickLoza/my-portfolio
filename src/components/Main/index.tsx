@@ -1,5 +1,5 @@
 import { FaJs, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaSass, FaNpm, FaGit } from 'react-icons/fa';
-import { SiNextdotjs,SiTailwindcss, SiTypescript, SiWebpack, SiTestinglibrary } from 'react-icons/si';
+import { SiNextdotjs,SiTailwindcss, SiTypescript, SiWebpack, SiTestinglibrary, SiGraphql } from 'react-icons/si';
 import projectsDB from '../../projectsDB/projectsDB';
 import laptopGif from '../../assets/computer.gif';
 
@@ -16,43 +16,60 @@ function Main() {
 				<h3 className='text-2xl text-[#B58956] mt-3'>Technologies: </h3>
 				<ul className='flex flex-wrap gap-x-5 gap-y-2 text-3xl my-4'>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]' title='Javascript'>
-						<FaJs />
+						<FaJs title="Javascript"/>
+						<span className='text-sm'>Javascript</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]' title="React">
-						<FaReact />
+						<FaReact title="React"/>
+						<span className='text-sm'>React</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]' >
 						<SiNextdotjs title="Next.js" />
+						<span className='text-sm'>Next.js</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<SiTypescript title="Typescript"/>
+						<span className='text-sm'>Typescript</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
-						<FaHtml5 title="HTML"/>
+						<FaHtml5 title="HTML5"/>
+						<span className='text-sm'>HTML5</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<FaCss3Alt title="CSS"/>
+						<span className='text-sm'>CSS</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<FaSass title="SASS"/>
+						<span className='text-sm'>SASS</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<SiTailwindcss title="Tailwind"/>
+						<span className='text-sm'>Tailwind</span>
+					</li>
+					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
+						<SiGraphql title="GraphQl"/>
+						<span className='text-sm'>GraphQl</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<SiWebpack title="Webpack"/>
+						<span className='text-sm'>Webpack</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<SiTestinglibrary title="Testing Library"/>
+						<span className='text-sm'>Testing</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<FaNpm title="NPM"/>
+						<span className='text-sm'>NPM</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<FaGit title="GIT"/>
+						<span className='text-sm'>GIT</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<FaNodeJs title="Node.js"/>
+						<span className='text-sm'>Node</span>
 					</li>
 				</ul>
 			</div>

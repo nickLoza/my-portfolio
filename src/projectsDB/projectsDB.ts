@@ -21,8 +21,8 @@ const projectsDB = [
 		imgUrl: "https://i.postimg.cc/fW1pTpvX/twitter-prev.png", 
 		title: "Twitter Clone",
 		websiteLink: "https://clone-twitter-nickloza.netlify.app/home", 
-		repositoryLink: "https://github.com/nickLoza/twitter-clone",
-		description: "React, Typescript and Tailwind"},
+		repositoryLink: "https://github.com/nickLoza/twitter-clone-reactjs-graphQl",
+		description: "React, Typescript Tailwind and a GraphQl Server"},
 	{
 		id: 4, 
 		imgUrl: "https://i.postimg.cc/W1Gyj736/paypal-preview.jpg", 
