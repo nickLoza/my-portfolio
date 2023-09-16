@@ -1,8 +1,8 @@
 import { FaJs, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaSass, FaNpm, FaGit } from 'react-icons/fa';
-import { SiNextdotjs,SiTailwindcss, SiTypescript, SiWebpack, SiTestinglibrary, SiGraphql } from 'react-icons/si';
+import { SiNextdotjs,SiTailwindcss, SiTypescript, SiWebpack, SiTestinglibrary, SiGraphql, SiMui, SiRedux } from 'react-icons/si';
 import projectsDB from '../../projectsDB/projectsDB';
 import laptopGif from '../../assets/computer.gif';
-
+import { GiPolarBear } from "react-icons/gi";
 
 function Main() {
 	return (
@@ -46,6 +46,18 @@ function Main() {
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<SiTailwindcss title="Tailwind"/>
 						<span className='text-sm'>Tailwind</span>
+					</li>
+					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
+						<SiMui title="Material-UI"/>
+						<span className='text-sm'>Material-UI</span>
+					</li>
+					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
+						<SiRedux title="Redux toolkit"/>
+						<span className='text-sm'>Redux toolkit</span>
+					</li>
+					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
+						<GiPolarBear title="Zustand"/>
+						<span className='text-sm'>Zustand</span>
 					</li>
 					<li className='flex items-center gap-x-1 transition-color duration-500 cursor-pointer hover:text-[#B58956]'>
 						<SiGraphql title="GraphQl"/>
